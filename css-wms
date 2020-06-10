@@ -1,12 +1,12 @@
 <style type="text/css">
-    #discovery-search-box,
+    #discovery-search-box,#discovery-search-box-catalogue,
     #discovery-search-box * {
         box-sizing: border-box !important;
         margin: 0;
         padding: 0;
         text-align: left;
     }
-    #discovery-search-box .material-tab {
+    #discovery-search-box .material-tab,#discovery-search-box-catalogue .material-tab  {
         display: inline-block;
         user-select: none;
         cursor: pointer;
@@ -20,7 +20,7 @@
         margin-right: 0.4em;
         z-index: 2;
     }
-    #discovery-search-form {
+    #discovery-search-form,#discovery-search-form-catalogue {
         position: "relative";
         width: auto;
         padding: 1.25em 2em 2em;
@@ -29,7 +29,7 @@
         z-index: 1;
         line-height: initial;
     }
-    #discovery-search-box .material-tab.active-tab {
+    #discovery-search-box .material-tab.active-tab,#discovery-search-box-catalogue .material-tab.active-tab {
         background-color: #fff !important;
         color: #333 !important;
     }

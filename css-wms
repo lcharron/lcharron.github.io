@@ -1,5 +1,5 @@
 <style type="text/css">
-    #discovery-search-box,#discovery-search-box-catalogue,
+    #discovery-search-box,#discovery-search-box-catalogue,#discovery-search-box-catalogue *,
     #discovery-search-box * {
         box-sizing: border-box !important;
         margin: 0;
@@ -33,13 +33,13 @@
         background-color: #fff !important;
         color: #333 !important;
     }
-    #discovery-index-container {
+    #discovery-index-container,#discovery-index-container-catalogue  {
         position: relative;
         height: 3em;
         background-color: white;
         color: black;
     }
-    #discovery-index-container:after {
+    #discovery-index-container:after,#discovery-index-container-catalogue:after {
         content: "\f078";
         display: block;
         font-family: "FontAwesome", sans-serif;
@@ -49,7 +49,7 @@
         line-height: 3em;
         z-index: 5;
     }
-    #discovery-index-container #discovery-search-select {
+    #discovery-index-container #discovery-search-select,#discovery-index-container-catalogue #discovery-search-select-catalogue {
         position: relative;
         z-index: 10;
         height: 100%;

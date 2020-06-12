@@ -1,74 +1,71 @@
 <style type="text/css">
-    #discovery-search-box,#discovery-search-box-catalogue,#discovery-search-box-catalogue *,
-    #discovery-search-box * {
-        box-sizing: border-box !important;
-        margin: 0;
-        padding: 0;
-        text-align: left;
-    }
-    #discovery-search-box .material-tab,#discovery-search-box-catalogue .material-tab  {
-        display: inline-block;
-        user-select: none;
-        cursor: pointer;
-        background-color: #545454;
-        color: #fff;
-        min-height: 2em;
-        min-width: 1.5rem;
-        padding: 0.5em;
-        box-sizing: border-box;
-        border-radius: 0.25em 0.25em 0 0;
-        margin-right: 0.4em;
-        z-index: 2;
-    }
-    #discovery-search-form,#discovery-search-form-catalogue {
-        position: "relative";
-        width: auto;
-        padding: 1.25em 2em 2em;
-        background-color: #fff !important;
-        color: #333 !important;
-        z-index: 1;
-        line-height: initial;
-    }
-    #discovery-search-box .material-tab.active-tab,#discovery-search-box-catalogue .material-tab.active-tab {
-        background-color: #fff !important;
-        color: #333 !important;
-    }
-    #discovery-index-container,#discovery-index-container-catalogue  {
-        position: relative;
-        height: 3em;
-        background-color: white;
-        color: black;
-    }
-    #discovery-index-container:after,#discovery-index-container-catalogue:after {
-        content: "\f078";
-        display: block;
-        font-family: "FontAwesome", sans-serif;
-        position: absolute;
-        top: 0;
-        right: 0.5em;
-        line-height: 3em;
-        z-index: 5;
-    }
-    #discovery-index-container #discovery-search-select,#discovery-index-container-catalogue #discovery-search-select-catalogue {
-        position: relative;
-        z-index: 10;
-        height: 100%;
-        min-width: initial;
-        font-size: 1em;
-        padding: 0 2em 0 1em;
-        background-color: transparent;
-        border-top: 1px solid #ccc;
-        border-right: 0;
-        border-bottom: 1px solid #ccc;
-        border-left: 1px solid #ccc;
-        border-image: initial;
-        border-radius: 0;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-    }
-    select::-ms-expand {
-        display: none;
-    }
+  #discovery-search-box2, #discovery-search-box2 *,#discovery-search-box, #discovery-search-box *,#discovery-search-bdd-box, #discovery-search-bdd-box *,#discovery-search-const-box, #discovery-search-const-box * {
+ box-sizing:border-box!important;
+ margin:0;
+ padding:0;
+ text-align:left
+}
+#discovery-search-box2 .material-tab-ar,#discovery-search-box .material-tab,#discovery-search-bdd-box .material-tab-ar,#discovery-search-const-box .material-tab {
+ display:inline-block;
+ user-select:none;
+ cursor:pointer;
+ background-color:#545454;
+ color:#fff;
+ box-sizing:border-box;
+ border-radius:.25em .25em 0 0;
+ margin-right:.4em;
+ z-index:2
+}
+#discovery-search2-form,#discovery-search-form,#discovery-search-bdd-form,#discovery-search-const-form  {
+ position:'relative';
+ width:auto;
+ padding:1.25em 2em 2em;
+ background-color:#fff!important;
+ color:#333!important;
+ z-index:1;
+ line-height:initial
+}
+#discovery-search-box2 .material-tab-ar.active-tab-ar,#discovery-search-box .material-tab.active-tab,#discovery-search-bdd-box .material-tab-ar.active-tab-ar,#discovery-search-const-box .material-tab.active-tab {
+ background-color:#fff!important;
+ color:#fff!important
+}
+#discovery-index2-container,#discovery-index-container,#discovery-index-bdd-container,#discovery-index-const-container {
+ position:relative;
+ height:3em;
+ background-color:white;
+ color:black
+}
+#discovery-index2-container:after,#discovery-index-container:after,#discovery-index-bdd-container:after,#discovery-index-const-container:after {
+ content:'\f078';
+ display:block;
+ font-family:'FontAwesome',sans-serif;
+ position:absolute;
+ top:0;
+ right:.5em;
+ line-height:3em;
+ z-index:5
+}
+#discovery-index2-container #discovery-search2-select,#discovery-index-container #discovery-search-select,#discovery-index-bdd-container #discovery-search-bdd-select,#discovery-index-const-container #discovery-search-const-select {
+ position:relative;
+ z-index:10;
+ height:100%;
+ min-width:initial;
+ font-size:1em;
+ padding:0 2em 0 1em;
+ background-color:transparent;
+ border-top:1px solid #ccc;
+ border-right:0;
+ border-bottom:1px solid #ccc;
+ border-left:1px solid #ccc;
+ border-image:initial;
+ border-radius:0;
+ -webkit-appearance:none;
+ -moz-appearance:none
+}
+select::-ms-expand {
+ display:none
+}
+
     .s-lib-box-container .s-lib-floating-box-content {
         padding: 0;
         min-height: 300px;

@@ -1,4 +1,7 @@
 /*! CSS Test */    
+.top-footer {
+ box-sizing:unset;   
+}
     header#uqac-site-masthead .page-title.bg-image {
         height: 21.07rem;
         background-position: center;

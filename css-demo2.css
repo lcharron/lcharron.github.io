@@ -460,3 +460,76 @@ footer#colophon .black-overlay{background-color:rgba(0,0,0,.8);}
 @font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gfD_u50.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
 @font-face{font-family:'Montserrat';font-style:normal;font-weight:900;src:local('Montserrat Black'), local('Montserrat-Black'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
 @font-face{font-family:"Material Design Icons";src:url(http://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.eot?v=2.2.43);src:url(http://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.eot#iefix&v=2.2.43) format("embedded-opentype"),url(http://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.woff2?v=2.2.43) format("woff2"),url(http://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.woff?v=2.2.43) format("woff"),url(http://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.ttf?v=2.2.43) format("truetype"),url(http://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.svg?v=2.2.43#materialdesigniconsregular) format("svg");font-weight:400;font-style:normal;}
+
+
+  /*! * Yamm!3 - Yet another megamenu for Bootstrap 3 * https://geedmo.github.com/yamm3 * * @geedmo - Licensed under the MIT license */
+    .yamm .nav,
+    .yamm .collapse,
+    .yamm .dropup,
+    .yamm .dropdown {
+        position: static;
+    }
+    .yamm .container {
+        position: relative;
+    }
+    .yamm .dropdown-menu {
+        left: auto;
+    }
+    .yamm .yamm-content {
+        padding: 20px 30px;
+    }
+    .yamm .dropdown.yamm-fw .dropdown-menu {
+        left: 0;
+        right: 0;
+    }
+
+    .jumbotron {
+        margin: 60px 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .jumbotron.intro {
+        margin-top: 0;
+    }
+    .jumbotron .navbar {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+/*! Yamm Biblio */
+.yamm-content li {
+    margin-bottom: 1px;
+}
+.yamm li.dropdown {
+margin-bottom: 0px;
+}
+/*! Yamm Biblio fin */
+/* menu styes */
+    .list-unstyled,
+    .list-unstyled ul {
+        min-width: 120px;
+    }
+    @media (min-width: 767px) {
+        .panel-group {
+            width: 400px;
+        }
+        .thumbnail {
+            margin: 0;
+        }
+    } /* Grid demo styles */
+    .grid-demo {
+        padding: 10px 30px;
+    }
+    .grid-demo [class*="col-"] {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1em;
+        text-align: center;
+        line-height: 2;
+        background-color: #e5e1ea;
+        border: 1px solid #d1d1d1;
+    }
+    .yamm-content .row {
+        padding-bottom: 15px;
+    }
+
+/*! Fin YAMM */

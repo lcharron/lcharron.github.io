@@ -1,4 +1,12 @@
 /*! CSS Test Thème UQAC */
+    body {
+        font-family: Montserrat, Helvetica, Arial, sans-serif;
+        color: #000;
+        font-size: 14px;
+        line-height: 1.15;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 /*! Entête CSS Used from: http://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
 @media all{
 h1{font-size:2em;margin:.67em 0;}

@@ -1,5 +1,5 @@
 /*! CSS Test Thème UQAC */
-
+footer#colophon.site-footer.inverted div.grid.container.top-footer div.row div.col-md-4:before{box-sizing: content-box;}
 html {
  font-size:14px
 }

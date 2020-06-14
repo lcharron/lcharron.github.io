@@ -474,9 +474,8 @@ h2{color:#79726a;font-family:Montserrat,Helvetica,Arial,sans-serif;line-height:1
 h2{font-size:2.5rem;line-height:2.8rem;}
 p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;margin-top:0;margin-bottom:1.429rem;}
 .inverted p{color:#fff;}
-.btn{font-weight:600;border:none;text-decoration:none;transition:color .3s,background-color .3s;display:inline-block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;color:#fff;background-color:#95b147;font-size:14px;font-size:1rem;line-height:21px;line-height:1.5rem;padding:11.2px 23.8px;padding:.8rem 1.7rem;}
-.btn:hover{color:#fff;background-color:#708535;}
-.inverted .btn{color:#fff;background-color:#708535;}
+
+
 .inverted .btn:hover{color:#fff;background-color:#95b147;}
 .btn.btn-transparent{background-color:transparent;color:#000;}
 .inverted .btn.btn-transparent{color:#fff;}

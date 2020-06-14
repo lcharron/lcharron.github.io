@@ -710,7 +710,7 @@ margin-left: unset;
 
 /* emulation navigation */
 .nav-tabs {
-    border-bottom: 1px solid #708535;
+    border-bottom: 1px solid #95b147;
 }
 .nav-tabs > li {
     float: left;
@@ -748,4 +748,5 @@ margin-left: unset;
     text-decoration: none;
     background-color: #708535;
 }
+
 

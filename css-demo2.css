@@ -219,13 +219,14 @@ header#uqac-site-masthead .external-links-menu .bottom .right li a:hover span:af
 
 }
 
+
+@media (max-width:1200px),(max-width:992px){
+header#uqac-site-masthead .top-container .container{padding-left:1.5rem;padding-right:1.5rem;}
+}
 @media (max-width:767px){
 .menu-toggle{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;font-weight:600;}
 header#uqac-site-masthead{z-index:5;}
 header#uqac-site-masthead .top-container .container{padding-left:.7143rem;padding-right:.7143rem;}
-}
-@media (max-width:1200px),(max-width:992px){
-header#uqac-site-masthead .top-container .container{padding-left:1.5rem;padding-right:1.5rem;}
 }
 
 @media (max-width:1200px){

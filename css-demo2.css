@@ -480,7 +480,7 @@ p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;marg
 .inverted .btn:hover{color:#fff;background-color:#95b147;}
 .btn.btn-transparent{background-color:transparent;color:#000;}
 .inverted .btn.btn-transparent{color:#fff;}
-.btn.btn-icon:before{color:#fff;z-index:2;}
+
 .btn.btn-icon:hover:before{color:#fff;}
 .btn.btn-icon:empty{background:0 0;}
 .btn.btn-icon:empty:before{color:#95b147;}
@@ -500,8 +500,8 @@ p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;marg
 .inverted .btn.btn-icon.btn-icon-square.btn-transparent:hover:before{color:#000;}
 .btn.btn-icon{min-width:3rem;min-height:3rem;padding:0 .625rem 0 3rem;}
 .btn.btn-icon:empty{padding:0;}
-.btn.btn-icon:before{font-size:2rem;line-height:2.5rem;width:2.5rem;}
-.btn.btn-icon:before{top:.25rem;left:.25rem;}
+
+
 .btn.btn-icon.btn-icon-square:after{width:2.5rem;height:2.5rem;border-width:.25rem;}
 .btn.btn-icon.btn-icon-square.btn-transparent{padding-left:3.75rem;}
 .btn.btn-icon.btn-icon-square:empty{padding:0;}

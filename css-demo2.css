@@ -497,8 +497,8 @@ p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;marg
 .inverted .btn.btn-icon.btn-icon-square.btn-transparent{color:#fff;}
 .inverted .btn.btn-icon.btn-icon-square.btn-transparent:before{color:#000;}
 .inverted .btn.btn-icon.btn-icon-square.btn-transparent:hover:before{color:#000;}
-.btn.btn-icon{min-width:3rem;min-height:3rem;padding:0 .625rem 0 3rem;}
-.btn.btn-icon:empty{padding:0;}
+
+
 
 
 .btn.btn-icon.btn-icon-square:after{width:2.5rem;height:2.5rem;border-width:.25rem;}

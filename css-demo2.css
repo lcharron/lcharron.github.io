@@ -740,9 +740,7 @@ margin-left: unset;
 }
 .nav-tabs > li > a:hover {
     border-color: #708535;
-        border-top-color: rgb(238, 238, 238);
-        border-bottom-color: rgb(221, 221, 221);
-        border-left-color: rgb(238, 238, 238);
+     
 }
 .nav-tabs > li > a:focus, .nav > li > a:hover {
     text-decoration: none;

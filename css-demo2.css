@@ -480,10 +480,6 @@ p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;marg
 .btn.btn-transparent{background-color:transparent;color:#000;}
 .inverted .btn.btn-transparent{color:#fff;}
 
-.btn.btn-icon:hover:before{color:#fff;}
-.btn.btn-icon:empty{background:0 0;}
-.btn.btn-icon:empty:before{color:#95b147;}
-.btn.btn-icon:empty:hover:before{color:#708535;}
 .btn.btn-icon.btn-icon-square.btn-transparent:hover{background:0 0;}
 .inverted .btn.btn-icon{color:#fff;}
 .btn.btn-icon.btn-icon-square{color:#fff;}
@@ -497,9 +493,6 @@ p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;marg
 .inverted .btn.btn-icon.btn-icon-square.btn-transparent{color:#fff;}
 .inverted .btn.btn-icon.btn-icon-square.btn-transparent:before{color:#000;}
 .inverted .btn.btn-icon.btn-icon-square.btn-transparent:hover:before{color:#000;}
-
-
-
 
 .btn.btn-icon.btn-icon-square:after{width:2.5rem;height:2.5rem;border-width:.25rem;}
 .btn.btn-icon.btn-icon-square.btn-transparent{padding-left:3.75rem;}

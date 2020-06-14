@@ -749,3 +749,9 @@ margin-left: unset;
 	outline: none;
 }
 
+/* Libguides */
+
+.s-lg-rss-list-item .btn {
+	background-color: #fff;
+	color:#6b8915;
+}

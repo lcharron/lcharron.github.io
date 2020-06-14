@@ -697,4 +697,7 @@ div.navbar.yamm.navbar-default div.container div#navbar-collapse-1.navbar-collap
     margin-right: 2px;
     margin-bottom: 2px;
 }
-
+header#uqac-site-masthead div.container {
+	padding-left:unset;
+	padding-right:unset;
+}

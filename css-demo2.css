@@ -716,6 +716,14 @@ margin-left: unset;
     float: left;
     margin-bottom: -1px;
 }
+.nav-tabs > li > a {
+    margin-right: 0px;
+    line-height: 1.5rem;
+    border: 1px solid #95b147;
+    border-radius: 0px 0px 0 0;
+	 background-color: #95b147;
+	     color:#fff
+}
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     color: #fff;
     cursor: default;
@@ -726,14 +734,7 @@ margin-left: unset;
 	border-top: 2px solid #95b147;
     border-left: 2px solid #95b147;
 }
-.nav-tabs > li > a {
-    margin-right: 0px;
-    line-height: 1.5rem;
-    border: 1px solid transparent;
-    border-radius: 0px 0px 0 0;
-	 background-color: #95b147;
-	     color:#fff
-}
+
 .nav-tabs > li > a:hover {
     border-color: none;
 	outline: none;
@@ -742,9 +743,9 @@ margin-left: unset;
     border-color: #708535;
      
 }
-.nav-tabs > li > a:focus, .nav > li > a:hover {
+.nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
     text-decoration: none;
     background-color: #708535;
+	outline: none;
 }
-
 

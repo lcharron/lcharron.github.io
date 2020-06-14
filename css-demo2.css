@@ -166,6 +166,7 @@ header#uqac-site-masthead nav ul li a{text-decoration:none;}
 header#uqac-site-masthead .row.top{margin-bottom:.7143rem;}
 header#uqac-site-masthead .row.top:after{content:"";display:table;clear:both;}
 header#uqac-site-masthead .row.top a.link-uqac{display:block;float:left;width:50%;}
+header#uqac-site-masthead .external-links-menu .top a.link-uqac img{width:6.071rem;}
 header#uqac-site-masthead .row.top a.link-uqac img{width:3.786rem;height:100%;padding-top:0;}
 header#uqac-site-masthead nav#top-site-nav{float:none;width:100%;}
 header#uqac-site-masthead nav#top-site-nav ul{display:inline-block;}
@@ -198,7 +199,7 @@ header#uqac-site-masthead ul.external-links li a span{margin-left:5px;}
 header#uqac-site-masthead ul.external-links li a:hover{background-color:#5e5e5e;color:#fff;}
 header#uqac-site-masthead .external-links-menu{background-color:#000;display:none;position:absolute;top:0;left:0;width:100%;height:auto;padding:2.5rem 5rem 1.786rem;z-index:11;box-sizing:border-box;}
 header#uqac-site-masthead .external-links-menu .top{-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}
-header#uqac-site-masthead .external-links-menu .top a.link-uqac img{width:6.071rem;}
+
 header#uqac-site-masthead .external-links-menu .bottom .left{margin-left:0;width:58.33333%;}
 header#uqac-site-masthead .external-links-menu .bottom .left .row a.link{width:calc(33.3333% - 2px);position:relative;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:15.71rem;text-decoration:none;background-size:cover;background-position:center center;border-right:2px solid #000;border-bottom:2px solid #000;text-align:center;}
 header#uqac-site-masthead .external-links-menu .bottom .left .row a.link:last-of-type{border:none;}
@@ -700,4 +701,8 @@ div.navbar.yamm.navbar-default div.container div#navbar-collapse-1.navbar-collap
 header#uqac-site-masthead div.container {
 	padding-left:unset;
 	padding-right:unset;
+}
+footer#colophon div.row {
+margin-right: unset;
+margin-left: unset;
 }

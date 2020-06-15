@@ -761,9 +761,9 @@ margin-left: unset;
 élément {
 
 }
-.s-lib-main .s-lg-row {
+.s-lib-main  {
 
-    margin: 10px;
+    padding: 1.429rem 0.7143rem;
 }
 
 /* I fil RSS */

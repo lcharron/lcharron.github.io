@@ -801,6 +801,18 @@ margin-left: unset;
     border-bottom-color: transparent;
     font-weight: bold;
 }
+#s-lg-tabs-container .nav-tabs > .active > a:hover, #s-lg-tabs-container .nav-pills > .active > a:hover, #s-lg-tabs-container .nav-tabs > .active > button:hover, #s-lg-tabs-container .nav-pills > .active > button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #95b147; /* changé */
+    border: 1px solid transparent;
+        border-bottom-color: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom-color: transparent;
+    font-weight: bold;
+}
 
 /* I fil RSS */
 .s-lg-rss-list .s-ui-helptip .btn {

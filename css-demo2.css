@@ -444,9 +444,6 @@ header#uqac-site-masthead .external-links-menu .bottom .right ul{float:none;}
 /*! Pied de page CSS Used from: https://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
     /*! CSS Used from: https://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
 @media all{
-a{background-color:transparent;}
-img{border-style:none;}
-.container{width:1200px;max-width:100%;margin:0 auto;}
 .grid{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:1200px;max-width:100%;margin:0 auto;}
 .row{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;width:100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
 .col{box-sizing:border-box;margin:10px;vertical-align:top;}

@@ -767,6 +767,6 @@ margin-left: unset;
 }
 
 /* I fil RSS */
-.s-lg-rss-list > .s-ui-helptip > .btn {
+.s-lg-rss-list .s-ui-helptip .btn {
 	background-color: #fff;
 }

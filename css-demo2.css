@@ -767,6 +767,23 @@ margin-left: unset;
 	background-color: #fff;
 	color:#6b8915;
 }
+
+.s-lg-rss-list-item  li {
+    display: block;
+}
+
+.s-lg-rss-list-item li:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.75em;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #6b8912;
+}
+
+
 élément {
 
 }

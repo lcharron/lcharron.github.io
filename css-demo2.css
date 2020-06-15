@@ -711,12 +711,12 @@ margin-left: unset;
 }
 .nav-tabs > li {
     float: left;
-    margin-bottom: -1px;
+    margin-bottom: 0px;
 }
 .nav-tabs > li > a {
     margin-right: 0px;
     line-height: 1.5rem;
-    border: 1px solid #95b147;
+    border: unset;
     border-top: 2px solid #95b147;
     border-left: 2px solid #95b147;
     border-radius: 0px 0px 0 0;
@@ -727,7 +727,7 @@ margin-left: unset;
     color: #fff;
     cursor: default;
     background-color: #708535;
-    border: 1px solid #95b147;
+    border: unset;
     border-top: 2px solid #95b147;
     border-left: 2px solid #95b147;
 }
@@ -743,7 +743,7 @@ margin-left: unset;
 .nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
     text-decoration: none;
     background-color: #708535;
-	outline: none;
+    outline: none;
 }
 .s-lib-jqtabs div.tab-content {
     border-bottom: 1px solid #708535;

@@ -841,4 +841,16 @@ margin-left: unset;
     font-weight: bold;
 }
 
+#s-lg-tabs-container .nav-pills > li > a:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #95b147; /* changé */
+    border: 1px solid transparent;
+        border-bottom-color: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom-color: transparent;
+    font-weight: bold;
+}
 

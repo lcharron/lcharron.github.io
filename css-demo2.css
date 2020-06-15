@@ -770,3 +770,6 @@ margin-left: unset;
 .s-lg-rss-list .s-ui-helptip .btn {
 	background-color: #fff;
 }
+.s-lg-rss .s-ui-helptip .fa-info-circle {
+	color:#708535;
+}

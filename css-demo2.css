@@ -18,6 +18,7 @@ body {
         color: #000;
         padding-left: 0px;
         padding-right: 0px;
+	font-size:unset;
     }
 /*! Entête CSS Used from: https://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
 @media all{

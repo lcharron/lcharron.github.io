@@ -717,6 +717,8 @@ margin-left: unset;
     margin-right: 0px;
     line-height: 1.5rem;
     border: 1px solid #95b147;
+ border-top: 2px solid #95b147;
+    border-left: 2px solid #95b147;
     border-radius: 0px 0px 0 0;
 	 background-color: #95b147;
 	     color:#fff
@@ -726,8 +728,7 @@ margin-left: unset;
     cursor: default;
     background-color: #708535;
     border: 1px solid #95b147;
-
-	border-top: 2px solid #95b147;
+    border-top: 2px solid #95b147;
     border-left: 2px solid #95b147;
 }
 

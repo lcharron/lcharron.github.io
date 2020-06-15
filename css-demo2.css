@@ -752,6 +752,10 @@ margin-left: unset;
 }
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+    outline: none;
+}
+
 /* Libguides */
 
 /* mise en page du contenu principal de libguides */

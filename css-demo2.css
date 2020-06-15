@@ -702,6 +702,42 @@ margin-left: unset;
 }
 #colophon.inverted .btn.btn-icon.btn-icon-square:after {box-sizing: content-box;}
 
+
+/* Menu principale */ 
+.navbar-default .navbar-toggle {
+    border-color: #95b147;
+	color:#fff;
+	font-weight: 600;
+	margin: 0 auto;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+	display: block;
+     height: 3px;
+    opacity: 1;
+    margin-bottom: 4px;
+    transition: all .3s ease;
+    border-radius: 2px;
+	
+}
+
+.navbar-toggle {
+    position: relative;
+    float: unset;
+    padding: 9px 10px;
+   /* margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;*/
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-radius: unset;
+	display:flex;
+	align-items:center;
+	margin: 0 auto;
+}
+
 /* emulation navigation */
 .nav-tabs {
     border-bottom: 1px solid #95b147; /* 2px */

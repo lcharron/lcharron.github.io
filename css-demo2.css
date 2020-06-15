@@ -773,6 +773,8 @@ margin-left: unset;
 
     padding: 1.429rem 0.7143rem;
 }
+#s-lg-public-skiplink {
+font-size:12px;}
 
 /* I fil RSS */
 .s-lg-rss-list .s-ui-helptip .btn {

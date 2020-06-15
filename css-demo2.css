@@ -764,5 +764,9 @@ margin-left: unset;
 #s-lg-guide-main {
 
     margin: 10px;
+}
 
+/* I fil RSS */
+.s-lg-rss-list > .s-ui-helptip > .btn {
+	background-color: #fff;
 }

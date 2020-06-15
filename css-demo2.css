@@ -130,7 +130,7 @@ h2{font-size:2.5rem;line-height:2.8rem;}
 ul{padding-left:15px;margin:0 0 .7143rem;}
 /* ul li{font-family:Arial,sans-serif;margin-bottom:1.071rem;line-height:1.5rem;} */
 /* ul li ul{margin:.7143rem 0;} */
-a{color:#95b147;transition:all .3s;}
+a{color:#6b8a16;transition:all .3s;} /* 95b147 accessibilité */
 .inverted a{color:#fff;}
 a:hover{color:#6b8915;}
 .inverted a:hover{color:#95b147;}
@@ -466,20 +466,15 @@ header#uqac-site-masthead .external-links-menu .bottom .right ul{float:none;}
 .mdi-school:before{content:"\F474";}
 .mdi-twitter:before{content:"\F544";}
 .mdi-youtube-play:before{content:"\F5C3";}
-body.touch :focus{outline:0;}
+
 h2{color:#79726a;font-family:Montserrat,Helvetica,Arial,sans-serif;line-height:1.1;font-weight:700;margin-top:0;margin-bottom:2.143rem;}
 .inverted h2{color:#fff;}
-h2{font-size:2.5rem;line-height:2.8rem;}
 p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;margin-top:0;margin-bottom:1.429rem;}
 .inverted p{color:#fff;}
-
-
 .inverted .btn:hover{color:#fff;background-color:#95b147;}
 .btn.btn-transparent{background-color:transparent;color:#000;}
 .inverted .btn.btn-transparent{color:#fff;}
-
 .btn.btn-icon.btn-icon-square.btn-transparent:hover{background:0 0;}
-.inverted .btn.btn-icon{color:#fff;}
 .btn.btn-icon.btn-icon-square{color:#fff;}
 .btn.btn-icon.btn-icon-square:before{color:#fff;}
 .btn.btn-icon.btn-icon-square:hover:before{color:#fff;}
@@ -505,15 +500,9 @@ p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;marg
 .btn-small.btn-icon.btn-icon-square:empty{padding:0;}
 .btn-icon{display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;position:relative;}
 .btn-icon:before{display:inline-block;font:normal normal normal 2.5rem "Material Design Icons";text-rendering:auto;line-height:2.5rem;-webkit-font-smoothing:antialiased;z-index:2;position:absolute;text-align:center;transition:all .3s;top:0;left:0;}
-.btn-icon:before{font-size:2rem;line-height:2.5rem;width:2.5rem;}
 .btn-icon-square:after{content:'';position:absolute;top:0;left:0;z-index:1;transition:color .3s,background-color .3s;}
 .btn-icon-square:after{border-style:solid;transition:color .3s,background-color .3s;width:2.5rem;height:2.5rem;border-width:.25rem;background-color:#95b147;border-color:transparent;}
-.btn-transparent{background:0 0;}
 .btn.btn-small-bigger-font{font-size:1rem;}
-a{color:#95b147;transition:all .3s;}
-.inverted a{color:#fff;}
-a:hover{color:#6b8915;}
-.inverted a:hover{color:#95b147;}
 .black-overlay{position:absolute;width:100%;height:100%;left:0;top:0;background-color:rgba(0,0,0,.5);z-index:1;}
 footer#colophon li.widget{list-style:none;margin-bottom:2.143rem;}
 footer#colophon li.widget h2{font-size:1.42rem;font-weight:600;margin-bottom:1.429rem;}
@@ -765,6 +754,24 @@ margin-left: unset;
 
 /* Libguides */
 
+/* mise en page du contenu principal de libguides */
+
+.s-lib-main  {
+
+    padding: 1.429rem 0.7143rem;
+}
+
+#s-lg-guide-header, #s-lg-guide-tabs-title-bar, #s-lg-side-nav-content {
+    padding-left: .7143rem;
+    padding-right: .7143rem;
+}
+
+#s-lg-public-skiplink {
+	font-size:12px;
+}
+
+/* Pour les fils RSS */
+
 .s-lg-rss-list-item .btn {
 	background-color: #fff;
 	color:#6b8915;
@@ -785,15 +792,6 @@ margin-left: unset;
     color: #6b8912;
 }
 
-.s-lib-main  {
-
-    padding: 1.429rem 0.7143rem;
-}
-
-#s-lg-public-skiplink {
-	font-size:12px;
-}
-
 /* I fil RSS */
 .s-lg-rss-list .s-ui-helptip .btn {
 	background-color: #fff;
@@ -805,3 +803,38 @@ margin-left: unset;
 .s-lib-box {
 	box-shadow: unset;
 }
+
+
+
+/* Menu latéral side navigation */
+
+#s-lg-tabs-container .nav-pills > li > a {
+	background-color:#6b8915;
+}
+
+#s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button {
+    color: #fff;
+    cursor: default;
+    background-color: #95b147; /* changé */
+    border: 1px solid transparent;
+    border-bottom-color: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom-color: transparent;
+    font-weight: bold;
+}
+#s-lg-tabs-container .nav-tabs > .active > a:hover, #s-lg-tabs-container .nav-pills > .active > a:hover, #s-lg-tabs-container .nav-tabs > .active > button:hover, #s-lg-tabs-container .nav-pills > .active > button:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #95b147; /* changé */
+    border: 1px solid transparent;
+        border-bottom-color: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom-color: transparent;
+    font-weight: bold;
+}
+
+

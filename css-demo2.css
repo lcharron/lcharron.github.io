@@ -20,6 +20,8 @@ body {
         padding-right: 0px;
 	font-size:unset;
     }
+	
+	
 /*! Entête CSS Used from: https://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
 @media all{
 h1{font-size:2em;margin:.67em 0;}
@@ -713,7 +715,7 @@ margin-left: unset;
 
 /* emulation navigation */
 .nav-tabs {
-    border-bottom: 2px solid #95b147;
+    border-bottom: 1px solid #95b147; /* 2px */
     font-size: 1rem;
     font-weight: 600;
 }

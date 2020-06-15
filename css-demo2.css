@@ -858,3 +858,7 @@ margin-left: unset;
     font-weight: bold;
 }
 
+.nav > li > a:hover,
+.nav > li > a:focus {
+    outline: unset;
+}

@@ -789,8 +789,17 @@ margin-left: unset;
 	background-color:#6b8915;
 }
 
-#s-lg-tabs-container .nav-tabs > .active > a:hover, #s-lg-tabs-container .nav-pills > .active > a:hover, #s-lg-tabs-container .nav-tabs > .active > button:hover, #s-lg-tabs-container .nav-pills > .active > button:hover {
-	background-color:#708535;
+#s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-tabs > .active > button, #s-lg-tabs-container .nav-pills > .active > a, #s-lg-tabs-container .nav-pills > .active > button {
+    color: #fff;
+    cursor: default;
+    background-color: #95b147; /* changé */
+    border: 1px solid transparent;
+    border-bottom-color: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-bottom-color: transparent;
+    font-weight: bold;
 }
 
 /* I fil RSS */

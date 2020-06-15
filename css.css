@@ -754,6 +754,24 @@ margin-left: unset;
 
 /* Libguides */
 
+/* mise en page du contenu principal de libguides */
+
+.s-lib-main  {
+
+    padding: 1.429rem 0.7143rem;
+}
+
+#s-lg-guide-header, #s-lg-guide-tabs-title-bar, #s-lg-side-nav-content {
+    padding-left: .7143rem;
+    padding-right: .7143rem;
+}
+
+#s-lg-public-skiplink {
+	font-size:12px;
+}
+
+/* Pour les fils RSS */
+
 .s-lg-rss-list-item .btn {
 	background-color: #fff;
 	color:#6b8915;
@@ -774,14 +792,19 @@ margin-left: unset;
     color: #6b8912;
 }
 
-.s-lib-main  {
-
-    padding: 1.429rem 0.7143rem;
+/* I fil RSS */
+.s-lg-rss-list .s-ui-helptip .btn {
+	background-color: #fff;
+}
+.s-lg-rss .s-ui-helptip .fa-info-circle {
+	color:#708535;
+}
+/* boîtes libguides */
+.s-lib-box {
+	box-shadow: unset;
 }
 
-#s-lg-public-skiplink {
-	font-size:12px;
-}
+
 
 /* Menu latéral side navigation */
 
@@ -814,14 +837,4 @@ margin-left: unset;
     font-weight: bold;
 }
 
-/* I fil RSS */
-.s-lg-rss-list .s-ui-helptip .btn {
-	background-color: #fff;
-}
-.s-lg-rss .s-ui-helptip .fa-info-circle {
-	color:#708535;
-}
-/* boîtes libguides */
-.s-lib-box {
-	box-shadow: unset;
-}
+

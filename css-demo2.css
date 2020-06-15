@@ -773,3 +773,7 @@ margin-left: unset;
 .s-lg-rss .s-ui-helptip .fa-info-circle {
 	color:#708535;
 }
+/* boîtes libguides */
+.s-lib-box {
+	box-shadow: unset;
+}

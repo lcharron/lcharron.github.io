@@ -745,7 +745,12 @@ margin-left: unset;
     background-color: #708535;
 	outline: none;
 }
-
+.s-lib-jqtabs div.tab-content {
+    border-bottom: 1px solid #708535;
+    border-left: 1px solid #708535;
+    border-right: 1px solid #708535;
+}
+}
 
 /* Libguides */
 

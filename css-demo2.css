@@ -770,11 +770,11 @@ margin-left: unset;
 	color:#6b8915;
 }
 
-.s-lg-rss-list-item  li {
-    display: block;
+.s-lg-rss-list  li {
+   list-style-type: none;
 }
 
-.s-lg-rss-list-item li:before {
+.s-lg-rss-list li:before {
     /*Using a Bootstrap glyphicon as the bullet point*/
     content: "\e080";
     font-family: 'Glyphicons Halflings';
@@ -785,10 +785,6 @@ margin-left: unset;
     color: #6b8912;
 }
 
-
-élément {
-
-}
 .s-lib-main  {
 
     padding: 1.429rem 0.7143rem;

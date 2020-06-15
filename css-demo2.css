@@ -691,10 +691,16 @@ div.navbar.yamm.navbar-default div.container div#navbar-collapse-1.navbar-collap
     padding: 11.2px 23.8px;
     padding: 0.8rem 1.7rem;
     color: #fff;
-    background-color: #bfd18d;
+    background-color: #6b8915;
     margin-right: 2px;
     margin-bottom: 2px;
 }
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fff;
+    background-color: #a7c061;
+}
+
 header#uqac-site-masthead div.container {
 	padding-left:unset;
 	padding-right:unset;

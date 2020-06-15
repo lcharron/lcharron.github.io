@@ -721,7 +721,7 @@ margin-left: unset;
     border-radius: 2px;
 	
 }
-
+@media (max-width:767px) {
 .navbar-toggle {
     position: relative;
     float: unset;
@@ -736,7 +736,7 @@ margin-left: unset;
 	display:flex;
 	align-items:center;
 	margin: 0 auto;
-}
+}}
 
 /* emulation navigation */
 .nav-tabs {

@@ -770,6 +770,10 @@ margin-left: unset;
 	font-size:12px;
 }
 
+#s-lg-guide-tabs-title-bar {
+    border-top: none;
+}
+
 /* Pour les fils RSS */
 
 .s-lg-rss-list-item .btn {

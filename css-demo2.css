@@ -897,8 +897,8 @@ font-family: Arial, sans-serif;
     font-family: 'Glyphicons Halflings';
     font-size: 0.75em;
     float: left;
-    margin-top: 4px;
-    margin-left: -17px;
+    margin-top: 0.25em;
+    margin-left: -1.5em;
     color: #6b8912;
 }
 
@@ -912,8 +912,8 @@ li.menu-principal-biblio:before {
     font-family: 'Glyphicons Halflings';
     font-size: 0.75em;
     float: left;
-    margin-top: 4px;
-    margin-left: -17px;
+    margin-top: 0.25em;
+    margin-left: -1.5em;
     color: #6b8912;
 	font-weight:400;
 }

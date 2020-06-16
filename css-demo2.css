@@ -1,25 +1,39 @@
 /*! CSS Test Thème UQAC */
-
-html {
- font-size:14px
-}
-@media (max-width:992px) {
- html {
-  font-size:13px
- }
-}
-@media (max-width:767px) {
- html {
-  font-size:12px
- }
-}
 body {
         font-family: Montserrat, Helvetica, Arial, sans-serif;
         color: #000;
         padding-left: 0px;
         padding-right: 0px;
-	font-size:unset;
+	font-size:14px;
     }
+html {
+ font-size:14px;
+}
+@media (max-width:992px) {
+ html {
+  font-size:13px;   
+ }
+body {
+        font-family: Montserrat, Helvetica, Arial, sans-serif;
+        color: #000;
+        padding-left: 0px;
+        padding-right: 0px;
+	font-size:13px;
+    }
+}
+@media (max-width:767px) {
+ html {
+  font-size:12px;
+ }
+    body {
+        font-family: Montserrat, Helvetica, Arial, sans-serif;
+        color: #000;
+        padding-left: 0px;
+        padding-right: 0px;
+	font-size:12px;
+    }
+}
+
 	
 	
 /*! Entête CSS Used from: https://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
@@ -469,7 +483,7 @@ header#uqac-site-masthead .external-links-menu .bottom .right ul{float:none;}
 
 h2{color:#79726a;font-family:Montserrat,Helvetica,Arial,sans-serif;line-height:1.1;font-weight:700;margin-top:0;margin-bottom:2.143rem;}
 .inverted h2{color:#fff;}
-p{font-size:1rem;font-family:Arial,sans-serif;color:#000;line-height:1.5rem;margin-top:0;margin-bottom:1.429rem;}
+p{/*! font-size:1rem; */font-family:Arial,sans-serif;color:#000;line-height:1.5rem;margin-top:0;margin-bottom:1.429rem;}
 .inverted p{color:#fff;}
 .inverted .btn:hover{color:#fff;background-color:#95b147;}
 .btn.btn-transparent{background-color:transparent;color:#000;}

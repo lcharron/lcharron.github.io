@@ -926,7 +926,7 @@ li.menu-principal-biblio:before {
 	color:#708535;
 }
 
-.s-lg-rss-list-item .fa-external-link {
+.s-lg-rss-list-item .fa-external-link, .s-lg-rss-list-item .fa-info-circle {
 	display:none;
 }
 /* boîtes libguides page d'accueil*/

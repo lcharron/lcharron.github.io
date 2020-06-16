@@ -752,6 +752,10 @@ margin-left: unset;
 	margin: 0 auto;
 }}
 
+
+.yamm-content {
+	font-size: 14px;
+}
 /* emulation navigation */
 .nav-tabs {
     border-bottom: 1px solid #95b147; /* 2px */

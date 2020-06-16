@@ -897,7 +897,7 @@ font-family: Arial, sans-serif;
     font-family: 'Glyphicons Halflings';
     font-size: 0.75em;
     float: left;
-    margin-top: 0.25em;
+ /*   margin-top: 0.25em; */
     margin-left: -1.5em;
     color: #6b8912;
 }

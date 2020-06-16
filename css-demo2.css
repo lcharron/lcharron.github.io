@@ -925,11 +925,34 @@ li.menu-principal-biblio:before {
 .s-lg-rss .s-ui-helptip .fa-info-circle {
 	color:#708535;
 }
-/* boîtes libguides */
-.s-lib-box {
+
+.s-lg-rss-list-item .fa-external-link {
+	display:none;
+}
+/* boîtes libguides page d'accueil*/
+/* .s-lib-box {
 	box-shadow: unset;
+} */
+
+#s-lg-box-16115780-container .s-lib-box {
+    
+    padding: 2.143rem 1.429rem;
+    border-top: .4286rem solid #95b147;
+    margin-bottom: 2.143rem;
+    box-shadow: 2px 4px 13px -1px rgba(0,0,0,.09);
 }
 
+#s-lg-box-16115780 .s-lib-box-title {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    font-weight: 600;
+    margin-bottom: 1.071rem;
+    color: #000;
+	background-color: #fff;
+    background-image: none;
+    border-bottom: unset;
+    border-radius: 0;
+}
 
 
 /* Menu latéral side navigation */
@@ -989,3 +1012,6 @@ li.menu-principal-biblio:before {
 .nav > li > a:focus {
     outline: unset;
 }
+
+/* Page accueil */
+

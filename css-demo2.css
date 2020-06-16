@@ -516,7 +516,7 @@ footer#colophon{position:relative;background-size:cover;background-position:cent
 footer#colophon a.btn{margin-right:2.143rem;margin-bottom:.7143rem;}
 footer#colophon .top-footer{z-index:2;position:relative;padding:7.143rem 0 3.214rem;}
 @media (max-width:767px){
-footer#colophon .top-footer{padding:30px 10px 15px;width:calc(100% - 20px);}
+footer#colophon .top-footer{padding:30px 10px 15px;993:calc(100% - 20px);}
 }
 footer#colophon .top-footer li.widget.widget_nav_menu ul.menu li{width:100%;margin-bottom:.7143rem;}
 footer#colophon .top-footer li.widget.widget_nav_menu ul.menu li a{padding-bottom:0;}
@@ -821,6 +821,11 @@ margin-left: unset;
 
 #s-lg-guide-tabs-title-bar {
     border-top: none;
+}
+
+.s-lg-tabs-side {
+	
+	width:100%;
 }
 
 /* Pour les fils RSS */

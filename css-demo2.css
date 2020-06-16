@@ -1,11 +1,5 @@
 /*! CSS Test Thème UQAC */
-body {
-        font-family: Montserrat, Helvetica, Arial, sans-serif;
-        color: #000;
-        padding-left: 0px;
-        padding-right: 0px;
-	font-size:14px;
-    }
+
 html {
  font-size:14px;
 }
@@ -26,15 +20,21 @@ body {
   font-size:12px;
  }
     body {
-        font-family: Montserrat, Helvetica, Arial, sans-serif;
-        color: #000;
-        padding-left: 0px;
-        padding-right: 0px;
+     font-family: Montserrat, Helvetica, Arial, sans-serif;
+     color: #000;
+    padding-left: 0px;
+    padding-right: 0px;
 	font-size:12px;
     }
 }
 
-	
+body {
+        font-family: Montserrat, Helvetica, Arial, sans-serif;
+        color: #000;
+        padding-left: 0px;
+        padding-right: 0px;
+	font-size:14px;
+    }	
 	
 /*! Entête CSS Used from: https://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
 @media all{

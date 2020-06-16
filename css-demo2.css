@@ -934,7 +934,7 @@ li.menu-principal-biblio:before {
 	box-shadow: unset;
 } */
 
-#s-lg-box-16115780-container .s-lib-box, #s-lg-box-16116615-container .s-lib-box, #s-lg-box-16118086-container .s-lib-box {
+#s-lg-box-16115780-container .s-lib-box, #s-lg-box-16116615-container .s-lib-box, #s-lg-box-16118164-container .s-lib-box {
     
     padding: 2.143rem 1.429rem;
     border-top: .4286rem solid #95b147;
@@ -942,7 +942,7 @@ li.menu-principal-biblio:before {
     box-shadow: 2px 4px 13px -1px rgba(0,0,0,.09);
 }
 
-#s-lg-box-16115780 .s-lib-box-title, #s-lg-box-16116615 .s-lib-box-title, #s-lg-box-16118086 .s-lib-box-title {
+#s-lg-box-16115780 .s-lib-box-title, #s-lg-box-16116615 .s-lib-box-title, #s-lg-box-16118164 .s-lib-box-title {
     font-size: 1rem;
     line-height: 1.42rem;
     font-weight: 600;

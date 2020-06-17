@@ -910,9 +910,9 @@ li.menu-principal-biblio:before {
     /*Using a Bootstrap glyphicon as the bullet point*/
     content: "\e080";
     font-family: 'Glyphicons Halflings';
-    font-size: 0.75em;
+    font-size: 0.6em;
     float: left;
-    margin-top: 0.25em;
+    margin-top: 0.40em;
     margin-left: -1.5em;
     color: #6b8912;
 	font-weight:400;

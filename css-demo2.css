@@ -1015,3 +1015,42 @@ li.menu-principal-biblio:before {
 
 /* Page accueil */
 
+/* Strate des nouvelles - Merçi à la TELUQ*/
+#s-lib-cpane-19021346.slick-slider {
+	padding: 0 20px;
+}
+#s-lib-cpane-19021346 .slick-slide img {
+	display:block;
+	padding:0!important;
+	min-width: 1px!important;
+	max-width:100%;
+	height:auto;
+}
+#s-lib-cpane-19021346 a.s-lib-cpane-slide-left,
+#s-lib-cpane-19021346 a.s-lib-cpane-slide-right {
+	width:auto;
+	min-width:1px;
+}
+#s-lib-cpane-19021346 .s-lib-cpane-caption {
+	width:60%!important;
+	padding:0 10px!important;
+}
+#s-lib-cpane-19021346 .s-lib-cpane-caption > *:first-child {
+	margin-top:0!important;
+}
+#s-lib-cpane-19021346 .s-lib-cpane-caption > *:last-child {
+	margin-bottom:0!important;
+}
+
+@media (max-width:767px) {
+	#s-lib-cpane-19021346 a.s-lib-cpane-slide-left,
+	#s-lib-cpane-19021346 a.s-lib-cpane-slide-right,
+	#s-lib-cpane-19021346 .s-lib-cpane-caption,
+	#s-lib-cpane-19021346 .slick-slide img {
+		width:100%!important;
+		display:block!important;
+	}
+	#s-lib-cpane-19021346 .s-lib-cpane-caption {
+		padding:15px 0 0 0!important;
+	}
+}

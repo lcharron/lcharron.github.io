@@ -835,9 +835,9 @@ margin-left: unset;
 }
 
 .s-lib-jqtabs div.tab-content {
-    border-bottom: 1px solid #95b147;
-    border-left: 1px solid #95b147;
-    border-right: 1px solid #95b147;
+    border-bottom:  unset;
+    border-left:  unset;
+    border-right: unset;
 	box-shadow: 2px 4px 13px -1px rgba(0,0,0,.09);
 }
 }

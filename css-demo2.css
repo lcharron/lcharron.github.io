@@ -891,6 +891,10 @@ margin-left: unset;
     border-top: none;
 }
 
+/* Widget Libcal */
+.yamm-content .hours-col-loc {
+	display:none !important;
+}
 
 
 @media (max-width:992px) {

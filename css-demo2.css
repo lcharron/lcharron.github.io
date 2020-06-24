@@ -489,6 +489,7 @@ header#uqac-site-masthead .external-links-menu .bottom .right ul{float:none;}
 .mdi-school:before{content:"\F474";}
 .mdi-twitter:before{content:"\F544";}
 .mdi-youtube-play:before{content:"\F5C3";}
+.mdi-comment:before{content:"\f17a";}
 
 h2{color:#79726a;font-family:Montserrat,Helvetica,Arial,sans-serif;line-height:1.1;font-weight:700;margin-top:0;margin-bottom:2.143rem;}
 .inverted h2{color:#fff;}

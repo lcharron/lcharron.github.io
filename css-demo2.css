@@ -676,6 +676,11 @@ margin-bottom: 0px;
     margin-bottom: 1em;
 }
 
+
+#uqac-site-masthead .lz_text_link {
+    color: #fff;
+}
+
 /*! Fin YAMM */
 /* navbar */
 .navbar-default {

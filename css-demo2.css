@@ -672,6 +672,10 @@ margin-bottom: 0px;
         padding-bottom: 15px;
     }
 
+.yamm-content .btn {
+    margin-bottom: 1em;
+}
+
 /*! Fin YAMM */
 /* navbar */
 .navbar-default {

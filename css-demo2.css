@@ -918,6 +918,9 @@ margin-left: unset;
     padding: 4px 15px;
 }
 
+#s-lg-tabs-container {
+	margin-bottom:1.429em;
+}
 
 /* Widget Libcal */
 .yamm-content .hours-col-loc {

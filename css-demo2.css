@@ -891,6 +891,11 @@ margin-left: unset;
     border-top: none;
 }
 
+/* Mise en forme des H2 titres de boîtes */
+.s-lib-box .s-lib-box-title {
+	font-size:1.285em;
+}
+
 /* Widget Libcal */
 .yamm-content .hours-col-loc {
 	display:none !important;

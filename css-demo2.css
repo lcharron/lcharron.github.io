@@ -815,7 +815,7 @@ margin-left: unset;
     margin-bottom: 0px;
 }
 .nav-tabs > li > a {
-    margin-right: 0px;
+ /*   margin-right: 0px; */
     line-height: 1.5rem;
     border: unset;
     border-top: 2px solid #95b147;

@@ -1003,6 +1003,8 @@ li.menu-principal-biblio:before {
 .btn-black {
  color:#fff;
  background-color:#000
+ margin-bottom:0.36em;
+ margin-top:0.36em;
 }
 
 

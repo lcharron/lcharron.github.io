@@ -905,6 +905,12 @@ margin-left: unset;
 	font-size:1.285em;
 }
 
+/* side navigation  side nav*/
+.nav-stacked > li + li {
+    margin-top: 0px;
+    margin-left: 0;
+}
+
 /* Style des onglets de navigation */
 
 #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover {

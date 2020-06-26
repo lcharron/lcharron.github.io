@@ -891,6 +891,11 @@ margin-left: unset;
     border-top: none;
 }
 
+/* retire la redondance dans le fils d'arianne */
+#s-lib-bc-site {
+	display:none;
+}
+
 /* Mise en forme des H2 titres de boîtes */
 .s-lib-box .s-lib-box-title {
 	font-size:1.285em;

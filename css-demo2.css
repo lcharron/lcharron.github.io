@@ -999,6 +999,11 @@ li.menu-principal-biblio:before {
 	display:none;
 }
 
+/* Retrait des H2 dans le haut des pages */
+#s-lg-guide-main h2 {
+	display:none;
+}
+
 /* Bouton noir de coordonnées */
 .btn-black {
  color:#fff;

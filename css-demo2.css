@@ -605,6 +605,10 @@ footer#colophon .black-overlay{background-color:rgba(0,0,0,.8);}
 @font-face{font-family:"Material Design Icons";src:url(https://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.eot?v=2.2.43);src:url(https://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.eot#iefix&v=2.2.43) format("embedded-opentype"),url(https://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.woff2?v=2.2.43) format("woff2"),url(https://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.woff?v=2.2.43) format("woff"),url(https://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.ttf?v=2.2.43) format("truetype"),url(https://www.uqac.ca/wp-content/themes/uqac/assets/fonts/materialdesignicons-webfont.svg?v=2.2.43#materialdesigniconsregular) format("svg");font-weight:400;font-style:normal;}
 
 
+  
+  
+ /*=========================================================================================================================================== */
+  
   /*! * Yamm!3 - Yet another megamenu for Bootstrap 3 * https://geedmo.github.com/yamm3 * * @geedmo - Licensed under the MIT license */
     .yamm .nav,
     .yamm .collapse,
@@ -994,10 +998,13 @@ li.menu-principal-biblio:before {
 .s-lg-rss-list-item .fa-external-link, .s-lg-rss-list-item .fa-info-circle {
 	display:none;
 }
-/* boîtes libguides page d'accueil*/
-/* .s-lib-box {
-	box-shadow: unset;
-} */
+
+/* Bouton noir de coordonnées */
+.btn-black {
+ color:#fff;
+ background-color:#000
+}
+
 
 /* boîtes style UQAC */
 

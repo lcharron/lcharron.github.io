@@ -896,6 +896,18 @@ margin-left: unset;
 	font-size:1.285em;
 }
 
+
+#s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover {
+    border: 1px solid transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: #708535;
+    color: #fff;
+}
+
+
+
 /* Widget Libcal */
 .yamm-content .hours-col-loc {
 	display:none !important;

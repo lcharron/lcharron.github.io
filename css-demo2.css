@@ -656,7 +656,7 @@ margin-bottom: 0px;
         min-width: 120px;
     }
     @media (min-width: 767px) {
-        .panel-group {
+        .yamm .panel-group {
             width: 400px;
         }
         .thumbnail {

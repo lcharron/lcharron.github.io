@@ -900,6 +900,10 @@ margin-left: unset;
 	display:none;
 }
 
+#s-lg-guide-header-info #s-lg-guide-desc-container #s-lg-guide-description {
+	display:none;
+}
+
 /* Mise en forme des H2 titres de boîtes */
 .s-lib-box .s-lib-box-title {
 	font-size:1.285em;

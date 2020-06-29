@@ -1025,6 +1025,10 @@ li.menu-principal-biblio:before {
 }
 */
 
+/* positionnement de l'icone dans l'avertissement Sofia */ 
+#s-lg-content-35387875 .alert .btn-icon:before {
+position:relative;
+}
 
 /* Bouton noir de coordonnées */
 .btn-black {

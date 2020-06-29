@@ -1093,7 +1093,7 @@ position:relative;
     -moz-border-radius: 0;
     border-radius: 0;
     border-bottom-color: transparent;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #s-lg-tabs-container .nav-pills > li > a:hover {
@@ -1106,7 +1106,7 @@ position:relative;
     -moz-border-radius: 0;
     border-radius: 0;
     border-bottom-color: transparent;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link, #s-lg-tabs-container .nav-pills > li > a.s-lg-tab-top-link:hover, #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link, #s-lg-tabs-container .nav-pills > li > button.s-lg-tab-top-link:hover {

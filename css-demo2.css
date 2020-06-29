@@ -1118,6 +1118,13 @@ li.menu-principal-biblio:before {
     outline: unset;
 }
 
+/* Pour menu sous pages */
+.s-lg-tabs-side .s-lg-subtab-ul {
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
 /* Page accueil */
 
 /* Fonction en vedette */

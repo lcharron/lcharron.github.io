@@ -40,20 +40,6 @@ body {
 @media all{
 h1{font-size:2em;margin:.67em 0;}
 
-.s-lib-box-content h3{
-	font-size: 1.44em;
-	}
-	
-
-.s-lib-box-content h4 {
-	font-size: 1.2em;
-	}
-
-.s-lib-box-content h5 {
-	font-size: 1.1em;
-	}
-
-
 a{background-color:transparent;}
 img{border-style:none;}
 button{font-family:inherit;font-size:100%;line-height:1.15;margin:0;}
@@ -157,8 +143,7 @@ h2{font-size:2.5rem;line-height:2.8rem;}
 .btn:hover .btn.btn-icon.btn-icon-circle.btn-white:before{color:#000;}
 .btn:hover .btn.btn-icon.btn-icon-circle.btn-white:after{background-color:#fff;}
 ul{padding-left:15px;margin:0 0 .7143rem;}
-ul li{font-family:Arial,sans-serif;margin-bottom:1.071rem;line-height:1.5rem;} 
-ul li ul{margin:.7143rem 0;}
+
 a{color:#6b8a16;transition:all .3s;} /* 95b147 accessibilité */
 .inverted a{color:#fff;}
 a:hover{color:#6b8915;}
@@ -1099,6 +1084,22 @@ position:relative;
     border-radius: 0;
 	
 }
+
+.s-lib-box-content h3{
+	font-size: 1.44em;
+	}
+	
+
+.s-lib-box-content h4 {
+	font-size: 1.2em;
+	}
+
+.s-lib-box-content h5 {
+	font-size: 1.1em;
+	}
+
+ .s-lib-box-content ul li{font-family:Arial,sans-serif;margin-bottom:1.071rem;line-height:1.5rem;}  
+ .s-lib-box-content ul li ul{margin:.7143rem 0;} 
 
 /* Menu latéral side navigation */
 

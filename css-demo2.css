@@ -905,7 +905,7 @@ margin-left: unset;
 }
 
 /* Mise en forme des H2 titres de boîtes */
-.s-lib-box .s-lib-box-title {
+/* .s-lib-box .s-lib-box-title {
 	font-size:1.6429em;
 	background-color: #f1f1f1;
     background-image: none;
@@ -915,7 +915,7 @@ margin-left: unset;
 	font-weight: 500;
     padding: 6px 8px;
     margin-top: 0;
-}
+} */
 
 /* side navigation  side nav*/
 .nav-stacked > li + li {

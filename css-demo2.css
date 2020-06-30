@@ -969,6 +969,10 @@ font-family: Arial, sans-serif;
 
 }
 
+ .s-lib-box-content ul li, .s-lib-box-content .modal-body ul li {font-family:Arial,sans-serif;margin-bottom:1.071rem;line-height:1.5rem;}  
+ .s-lib-box-content ul li ul, .s-lib-box-content .modal-body ul li ul {margin:.7143rem 0;} 
+
+
 /* Pour les fils RSS */
 
 .s-lg-rss-list-item .btn {
@@ -976,10 +980,10 @@ font-family: Arial, sans-serif;
 	color:#6b8915;
 }
 
-.s-lg-rss-list li {
+.s-lib-box-content li.s-lg-rss-list-item {
    font-family: Montserrat, Helvetica, Arial, sans-serif;
    list-style-type: none;
-   line-height: 1.75;
+   line-height: 1.75em;
    margin-bottom: 0;
    
 }
@@ -1102,8 +1106,6 @@ position:relative;
 	font-size: 1.1em;
 	}
 
- .s-lib-box-content ul li{font-family:Arial,sans-serif;margin-bottom:1.071rem;line-height:1.5rem;}  
- .s-lib-box-content ul li ul{margin:.7143rem 0;} 
 
 
 /* Menu latéral side navigation */

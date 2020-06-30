@@ -977,7 +977,11 @@ font-family: Arial, sans-serif;
 }
 
 .s-lg-rss-list li {
+   font-family: Montserrat, Helvetica, Arial, sans-serif;
    list-style-type: none;
+   line-height: 1.75;
+   margin-bottom: 0;
+   
 }
 
 .s-lg-rss-list li:before {
@@ -986,7 +990,7 @@ font-family: Arial, sans-serif;
     font-family: 'Glyphicons Halflings';
     font-size: 0.75em;
     float: left;
-    margin-top: 0.50em; 
+    margin-top: 0.30em; 
     margin-left: -1.5em;
     color: #6b8912;
 }

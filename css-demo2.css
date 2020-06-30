@@ -1117,6 +1117,13 @@ position:relative;
 	font-size: 1.1em;
 	}
 
+/* Boite flottantes */ 
+.s-lib-box-container .s-lib-floating-box {
+    border-width: 0;
+    box-shadow: 0 0;
+    border-radius: 0;
+    padding: 0px;
+}
 
 
 /* Menu latéral side navigation */

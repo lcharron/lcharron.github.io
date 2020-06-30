@@ -1041,17 +1041,26 @@ position:relative;
 
 /* boîtes style UQAC */
 
-#s-lg-box-16115780-container .s-lib-box, #s-lg-box-16116615-container .s-lib-box, #s-lg-box-16118164-container .s-lib-box, #s-lg-box-16118354-container .s-lib-box, #s-lg-box-16119356-container .s-lib-box, #s-lg-box-16125930-container .s-lib-box {
+/* #s-lg-box-16115780-container .s-lib-box, #s-lg-box-16116615-container .s-lib-box, #s-lg-box-16118164-container .s-lib-box, #s-lg-box-16118354-container .s-lib-box, #s-lg-box-16119356-container .s-lib-box, #s-lg-box-16125930-container .s-lib-box {
     
     padding: 2.143rem 1.429rem;
     border-top: .4286rem solid #95b147;
     margin-bottom: 2.143rem;
     box-shadow: 2px 4px 13px -1px rgba(0,0,0,.09);
+} */
+
+.s-lib-box {
+	padding: 2.143rem 1.429rem;
+    border-top: .4286rem solid #95b147;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-bottom-width:0px;
+    margin-bottom: 2.143rem;
+    box-shadow: 2px 4px 13px -1px rgba(0,0,0,.09);
+	
 }
 
-
-
-#s-lg-box-16115780 .s-lib-box-title, #s-lg-box-16116615 .s-lib-box-title, #s-lg-box-16118164 .s-lib-box-title, #s-lg-box-16118354 .s-lib-box-title,#s-lg-box-16119356 .s-lib-box-title,#s-lg-box-16125930 .s-lib-box-title  {
+/* #s-lg-box-16115780 .s-lib-box-title, #s-lg-box-16116615 .s-lib-box-title, #s-lg-box-16118164 .s-lib-box-title, #s-lg-box-16118354 .s-lib-box-title,#s-lg-box-16119356 .s-lib-box-title,#s-lg-box-16125930 .s-lib-box-title  {
     font-size: 1.2857rem;
     line-height: 1.42rem;
     font-weight: 600;
@@ -1061,8 +1070,20 @@ position:relative;
     background-image: none;
     border-bottom: unset;
     border-radius: 0;
-}
+} */
 
+.s-lib-box-title {
+	font-size: 1.2857rem;
+    line-height: 1.42rem;
+    font-weight: 600;
+    margin-bottom: 1.071rem;
+    color: #000;
+	background-color: #fff;
+    background-image: none;
+    border-bottom: unset;
+    border-radius: 0;
+	
+}
 
 /* Menu latéral side navigation */
 

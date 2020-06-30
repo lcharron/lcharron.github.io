@@ -39,6 +39,21 @@ body {
 /*! Entête CSS Used from: https://www.uqac.ca/biblio2/wp-content/themes/uqac/style.css?ver=1575032729 ; media=all */
 @media all{
 h1{font-size:2em;margin:.67em 0;}
+
+.s-lib-box-content h3{
+	font-size: 1.44em;
+	}
+	
+
+.s-lib-box-content h4 {
+	font-size: 1.2em;
+	}
+
+.s-lib-box-content h5 {
+	font-size: 1.1em;
+	}
+
+
 a{background-color:transparent;}
 img{border-style:none;}
 button{font-family:inherit;font-size:100%;line-height:1.15;margin:0;}

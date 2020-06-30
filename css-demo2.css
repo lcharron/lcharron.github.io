@@ -1090,7 +1090,18 @@ position:relative;
     background-image: none;
     border-bottom: unset;
     border-radius: 0;
-	
+}
+
+#s-lg-col-3 .s-lib-box .s-lib-box-title, #s-lg-col-0 .s-lib-box .s-lib-box-title {
+	font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.071rem;
+    color: #000;
+	background-color: #fff;
+    background-image: none;
+    border-bottom: unset;
+    border-radius: 0;
 }
 
 .s-lib-box-content h3{

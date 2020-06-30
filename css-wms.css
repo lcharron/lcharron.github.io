@@ -20,7 +20,8 @@
 #discovery-search2-form,#discovery-search-form,#discovery-search-bdd-form,#discovery-search-const-form,#discovery-search-reserve-form  {
  position:'relative';
  width:auto;
- padding:1.25em 2em 2em;
+ /* padding:1.25em 2em 2em; */
+  padding: 1.25em 1em 2em;
  background-color:#fff!important;
  color:#333!important;
  z-index:1;

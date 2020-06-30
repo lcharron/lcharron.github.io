@@ -829,7 +829,7 @@ margin-left: unset;
     background-color: #95b147;
     color:#fff
 }
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+.s-lib-jqtabs .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
     color: #fff;
     cursor: default;
     background-color: #708535;
@@ -839,25 +839,25 @@ margin-left: unset;
 	border-bottom: 1px solid #708535;
 }
 
-.nav-tabs > li > a:hover {
+.s-lib-jqtabs .nav-tabs > li > a:hover {
  
 	outline: none;
 }
-.nav-tabs > li > a:hover {
+.s-lib-jqtabs .nav-tabs > li > a:hover {
     border-color: #95b147;
      
 }
-.nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
+.s-lib-jqtabs .nav-tabs > li > a:focus, .nav-tabs > li > a:hover {
     text-decoration: none;
     background-color: #708535;
     outline: none;
 }
 
-.nav-tabs > li.active {    
+.s-lib-jqtabs .nav-tabs > li.active {    
     margin-bottom: -1px;
 }
 
-.nav-tabs > li {
+.s-lib-jqtabs .nav-tabs > li {
     
     margin-bottom: 0px;
 }
@@ -1100,6 +1100,7 @@ position:relative;
 
  .s-lib-box-content ul li{font-family:Arial,sans-serif;margin-bottom:1.071rem;line-height:1.5rem;}  
  .s-lib-box-content ul li ul{margin:.7143rem 0;} 
+
 
 /* Menu latéral side navigation */
 

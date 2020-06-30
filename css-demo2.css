@@ -969,7 +969,7 @@ font-family: Arial, sans-serif;
 
 }
 
- .s-lib-box-content ul li, .s-lib-box-content .modal-body ul li {font-family:Arial,sans-serif;margin-bottom:1.071rem;line-height:1.5rem;}  
+ .s-lib-box-content ul li, .s-lib-box-content .modal-body ul li {font-family:Arial,sans-serif;margin-bottom:0.75rem;line-height:1rem;}  
  .s-lib-box-content ul li ul, .s-lib-box-content .modal-body ul li ul {margin:.7143rem 0;} 
 
 

@@ -923,6 +923,16 @@ margin-left: unset;
     margin-left: 0;
 }
 
+/* pour remonter sur la page */
+#s-lib-scroll-top {
+    position: fixed;
+    bottom: 50%;
+    right: 5px;
+    text-decoration: none;
+    display: none;
+    font-size: 1.5em;
+    z-index: 2;
+}
 
 /* Page des sujets */
 /* retire les information de mise à jour et de consultation */

@@ -926,8 +926,12 @@ margin-left: unset;
 
 /* Page des sujets */
 /* retire les information de mise à jour et de consultation */
-#s-lg-sb-guides .s-lg-gmeta, #s-lg-sb-guides .fa-info-circle, #s-lg-sb-experts-div .s-lib-public-side-header  {
+#s-lg-sb-guides .s-lg-gmeta, #s-lg-sb-guides .fa-info-circle /*, #s-lg-sb-experts-div .s-lib-public-side-header*/  {
 	display:none;
+}
+
+#s-lg-sb-search-bar.row button.btn.btn-small.btn-primary {
+	font-size:1rem;
 }
 
 /* Style des onglets de navigation */

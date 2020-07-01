@@ -659,27 +659,11 @@ margin-bottom: 0px;
         .yamm .panel-group {
             width: 400px;
         }
-		#yamm ul.list-unstyled {
-    padding-left: 0;
-    list-style: none;
-    padding-top: 1em;
-                    }
+
         .thumbnail {
             margin: 0;
         }
-    }
-	
-	    @media (max-width: 767px) {
-      
-		#yamm ul.list-unstyled {
-    
-    list-style: none;
-    padding-top: 1em;
-                    }
-       
-    }
-	
-	/* Grid demo styles */
+    } /* Grid demo styles */
     .grid-demo {
         padding: 10px 30px;
     }

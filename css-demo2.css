@@ -943,6 +943,13 @@ margin-left: unset;
     padding-right: .7143rem;
 }
 
+/* retire l'effet bleu */
+
+.s-lib-main a:focus, .s-lib-main a:hover {
+    color: #6b8a16;
+    text-decoration: underline;
+}
+
 /* Page des sujets */
 /* retire les information de mise à jour et de consultation */
 #s-lg-sb-guides .s-lg-gmeta, #s-lg-sb-guides .fa-info-circle /*, #s-lg-sb-experts-div .s-lib-public-side-header*/  {

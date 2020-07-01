@@ -934,6 +934,15 @@ margin-left: unset;
     z-index: 2;
 }
 
+/* padding de page */
+
+.s-lib-side-borders {
+    border-left: 0;
+    border-right: 0;
+    padding-left: .7143rem;
+    padding-right: .7143rem;
+}
+
 /* Page des sujets */
 /* retire les information de mise à jour et de consultation */
 #s-lg-sb-guides .s-lg-gmeta, #s-lg-sb-guides .fa-info-circle /*, #s-lg-sb-experts-div .s-lib-public-side-header*/  {

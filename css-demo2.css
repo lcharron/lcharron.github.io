@@ -965,6 +965,31 @@ margin-left: unset;
 }
 
 /* Page des sujets */
+
+#s-lg-sb-experts-div .s-lib-public-side-header h2 {
+	
+    margin-top: 0;
+    margin-bottom: 0;
+    font: 700 16px Arial,Geneva,Helvetica,sans-serif;
+    border-bottom: none;
+    color: #686868;
+
+}
+
+/* boites */
+#s-lg-sb-content-guides .s-lib-box {
+    padding: 0.75rem 1.429rem;
+    border-top: none;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    margin-bottom: 0.5rem;
+    box-shadow: 2px 4px 13px -1px rgba(0,0,0,.09);
+}
+#s-lg-sb-content-guides .s-lib-border-round {
+	border-radius: 0px;
+}
+
 /* retire les information de mise à jour et de consultation */
 #s-lg-sb-guides .s-lg-gmeta, #s-lg-sb-guides .fa-info-circle /*, #s-lg-sb-experts-div .s-lib-public-side-header*/  {
 	display:none;

@@ -923,6 +923,13 @@ margin-left: unset;
     margin-left: 0;
 }
 
+
+/* Page des sujets */
+/* retire les information de mise à jour et de consultation */
+#s-lg-sb-guides .s-lg-gmeta, #s-lg-sb-guides .fa-info-circle, #s-lg-sb-experts-div .s-lib-public-side-header  {
+	display:none;
+}
+
 /* Style des onglets de navigation */
 
 #s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-tabs > li > button:hover, #s-lg-tabs-container .nav-pills > li > a:hover, #s-lg-tabs-container .nav-pills > li > button:hover {

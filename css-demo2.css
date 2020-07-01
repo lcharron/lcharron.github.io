@@ -980,6 +980,22 @@ font-family: Arial, sans-serif;
  .s-lib-box-content ul li ul, .s-lib-box-content .modal-body ul li ul {margin:.7143rem 0;} 
 
 
+.btn-primary {
+    background-color: #95b147 !important;
+    background-repeat: unset;
+    filter: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    background-image: unset;
+    border-color: unset;
+    text-shadow: unset;
+    -webkit-font-smoothing: antialiased;
+}
+
 /* Pour les fils RSS */
 
 .s-lg-rss-list-item .btn {

@@ -460,7 +460,7 @@ header#uqac-site-masthead .external-links-menu .bottom .right ul{float:none;}
 	.derniers {
     margin-left: -4em;
 }
-@media (max-width:767px){
+@media (max-width:992px){
 	.derniers {
     margin-left: 0;
 }}

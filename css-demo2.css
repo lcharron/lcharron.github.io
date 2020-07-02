@@ -463,7 +463,19 @@ header#uqac-site-masthead .external-links-menu .bottom .right ul{float:none;}
 @media (max-width:992px){
 	.derniers {
     margin-left: 0;
-}}
+	}
+	
+}
+@media (max-width:767px){
+	
+	.col-deux {		
+		margin-top: 1.429rem
+	}
+	
+	.menu-principal-biblio {
+		padding-left:1em;
+	}
+}
 
 
 

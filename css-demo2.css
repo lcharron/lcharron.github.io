@@ -1011,7 +1011,7 @@ margin-left: unset;
 
 }
 
-/* boites */
+/* boites sujets */
 #s-lg-sb-content-guides .s-lib-box {
     padding: 0.75rem 1.429rem;
     border-top: none;
@@ -1032,6 +1032,14 @@ margin-left: unset;
 
 #s-lg-sb-search-bar.row button.btn.btn-small.btn-primary {
 	font-size:1rem;
+}
+
+
+/* Page des BDD */ 
+
+#s-lg-az-content div.s-lg-az-result-share button.btn {
+	background-color: #fff;
+	
 }
 
 /* Style des onglets de navigation */
@@ -1352,6 +1360,26 @@ padding-top: 0.5em;
 #s-lib-cpane-19021346 .s-lib-cpane-caption > *:last-child {
 	margin-bottom:0!important;
 }
+
+/* Bouton dossier */
+#dossier .btn.btn-icon {
+    padding: 0 .625rem 0 2.5rem;
+  }
+#dossier .btn.btn-icon:before {
+    /* line-height: 2.5rem; */
+    font-size: 1.5rem;
+	line-height: 2rem;
+  }
+#dossier .btn {
+    /* background-color: #95b147; */
+    background-color: #5b7411;
+	 border-radius: 0px;
+  }
+  
+  #dossier a {
+    font-size: 0.9rem;
+	min-height: 2.5rem;
+  }
 
 @media (max-width:767px) {
 	#s-lib-cpane-19021346 a.s-lib-cpane-slide-left,

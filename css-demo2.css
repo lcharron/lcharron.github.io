@@ -993,6 +993,12 @@ margin-left: unset;
     text-decoration: underline;
 }
 
+/* Focus pour bouton */
+
+.btn.btn-icon.mdi-account.pull-right:focus {
+    color: #fff;
+}
+
 /* Page des sujets */
 
 #s-lg-sb-experts-div .s-lib-public-side-header h2 {
